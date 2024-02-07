@@ -1,0 +1,107 @@
+/* #A63FB7 */
+body{
+    padding: 0px;
+    margin: 0px;
+    background-color: black;
+    backdrop-filter: blur(10px);
+}
+
+.circle1{
+    background: linear-gradient(to right, #c42c99c7, rgba(255, 255, 255, 0));
+    backdrop-filter: blur(10px);
+    width: 190px;
+    height: 35vh;
+    border-radius: 100px;
+    position: absolute;
+    margin-top: -4%;
+    margin-left: 30%;
+    
+}
+.circle2{
+    background: linear-gradient(to left, #c42c99c7, rgba(255, 255, 255, 0));
+    backdrop-filter: blur(10px);
+    width: 190px;
+    height: 35vh;
+    border-radius: 100px;
+    position: absolute;
+    margin-top: 8%;
+    margin-left: 55%;
+    
+}
+
+
+.card{
+    width: 350px;
+    height: 40vmin;
+    margin: 10% auto;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 16px;
+    box-shadow: 0, 4px, 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter:blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.516);
+    position: relative;
+    transition: 1.5s;
+   
+}
+
+
+.logo{
+    height: 5.5vh;
+    padding: 8%;
+    margin-top: -2%;
+    margin-left: -2%;
+}
+
+.chip{
+    height: 9vh;
+    width: 70px;
+    margin: 4% auto;
+    margin-right: 10px ;
+    
+
+}
+
+p{
+    padding:1.5%;
+    margin-left: -6%;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 500; 
+    font-size: 1.1rem;
+    color: white;
+}
+
+.cardLogo{
+    display: flex;
+}
+
+.NumberHeading{
+    font-size: 1rem;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 200;
+    margin-left: 4.5%;
+}
+.Number{
+    margin-left: 4.5%;
+    margin-top: -6%;
+}
+.val{
+    font-size: 0.6rem;
+    margin-left: 80%;
+    margin-top: -6%;
+}
+
+.cardTitle-validity{
+    display: flex;
+    gap: 166px;
+    margin-top: -10%;
+    
+}
+
+.cardholdername{
+    margin-left: 8%;
+}
+
+.card:hover{
+    background-color:dodgerblue;
+}

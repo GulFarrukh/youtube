@@ -1,0 +1,44 @@
+body {
+    padding: 0px;
+    margin: 0px;
+}
+
+.card {
+    width: 20%;
+    margin: 10% auto;
+    perspective: 1000px;
+    background-color: rebeccapurple;
+}
+
+.content {
+    width: 100%;
+    height: 50vh;
+    transform-style:flat;
+    transition: transform 2s;
+    background-color: yellow;
+}
+
+.front,
+.back {
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    position: absolute;
+}
+
+.front {
+    background: red;
+}
+
+.back {
+    background: green;
+    transform: rotateY(170deg);
+}
+
+h1 {
+    text-align: center;
+}
+
+.flipped .content {
+    transform: rotateY(170deg);
+}
